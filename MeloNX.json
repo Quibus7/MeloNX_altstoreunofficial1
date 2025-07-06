@@ -1,0 +1,159 @@
+{
+    "name": "MeloNX(unofficial)",
+    "subtitle": "the unofficial MeloNX source",
+    "description": "This is an unofficial source of MeloNX with the get more ram application INSTRUCTIONS: Sideload MeloNX using SideStore/altstore
+Sideload the ram app using SideStore/altstore
+Go to settings, sign in your account
+Go to "App IDs" page
+Tap Refresh
+Tap the app you want to enable "Increased Memory Limit"
+Tap "Add Increased Memory Limit"
+Reinstall the app from SideStore
+Check if you have "Increased Memory Limit" within meloNX settings",
+    "iconURL": "https://melonx.org/static/imgs/MeloNX.svg",
+    "headerURL": "",
+    "website": "https://melonx.org/",
+    "tintColor": "#e82c64",
+    "featuredApps": [
+        "com.stossy11.MeloNX",
+        "com.stos.Entitlement"
+    ],
+    "apps": [
+        {
+            "name": "MeloNX",
+            "bundleIdentifier": "com.stossy11.MeloNX",
+            "developerName": "MeloNX Team",
+            "subtitle": "switch emulation on the go!",
+            "localizedDescription": "MeloNX enables Nintendo Switch game emulation on iOS using the Ryujinx iOS code base.
+
+MeloNX is an iOS Nintendo Switch emulator based on Ryujinx, written primarily in C#. Designed to bring accurate performance and a user-friendly interface to iOS, MeloNX makes Switch games accessible on Apple devices. Developed from the ground up, MeloNX is open-source and available on Github under the MeloNX license.",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
+            "tintColor": "#5CA399",
+            "screenshots": [
+                "https://cdn.discordapp.com/attachments/1391374660070936630/1391374857610199133/Screenshot_2025-07-06_125902.png?ex=686baa50&is=686a58d0&hm=3299797984027c9cd4147f4b8a9e007309604a613f969f8471694ea4b2836be1&",
+                {
+                    "imageURL": "https://cdn.discordapp.com/attachments/1391374660070936630/1391374857610199133/Screenshot_2025-07-06_125902.png?ex=686baa50&is=686a58d0&hm=3299797984027c9cd4147f4b8a9e007309604a613f969f8471694ea4b2836be1&",
+                    "width": 2556,
+                    "height": 1179
+                }
+            ],
+            "versions": [
+                {
+                    "version": " 2.0.1",
+                    "date": "2025-06-01T09:00:00-08:00",
+                    "size": 20000000,
+                    "downloadURL": "https://git.743378673.xyz/MeloNX/MeloNX/releases/download/2.0.1/MeloNX.ipa",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                },
+                {
+                    "version": "1.0",
+                    "date": "2022-03-16T07:00:00-08:00",
+                    "size": 10000000,
+                    "downloadURL": "https://example.com/myapp_v1.0.ipa",
+                    "localizedDescription": "Initial release."
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.application-groups",
+                    "com.apple.developer.siri"
+                ],
+                "privacy": {
+                    "NSPhotoLibraryUsageDescription": "App saves photos to your Photo Library.",
+                    "NSCameraUsageDescription": "App uses camera to take photos.",
+                    "NSMicrophoneUsageDescription": "App uses microphone to record video."
+                }
+            }
+        },
+        {
+            "name": "More Ram",
+            "bundleIdentifier": "com.stos.Entitlement",
+            "developerName": ".",
+            "subtitle": "you will need this",
+            "localizedDescription": "idk use this to get waaaaay better performance",
+            "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
+            "tintColor": "#3660A2",
+            "screenshots": {
+                "iphone": [
+                    "https://example.com/anotherapp_portrait_1.png",
+                    "https://example.com/anotherapp_portrait_2.png",
+                    {
+                        "imageURL": "https://example.com/anotherapp_landscape.png",
+                        "width": 2556,
+                        "height": 1179
+                    }
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
+                        "width": 1668,
+                        "height": 2388
+                    },
+                    {
+                        "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
+                        "width": 2388,
+                        "height": 1668
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2022-06-21T09:00:00-08:00",
+                    "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/Entitlement.ipa",
+                    "localizedDescription": "Bug fixes and performance improvements.",
+                    "size": 81514,
+                    "minOSVersion": "13.0"
+                },
+                {
+                    "version": "1.1",
+                    "date": "2022-04-15T10:00:00-08:00",
+                    "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/Entitlement.ipa",
+                    "localizedDescription": "New features!",
+                    "size": 81364,
+                    "minOSVersion": "13.0",
+                    "maxOSVersion": "16.3"
+                },
+                {
+                    "version": "1.0",
+                    "date": "2022-02-02T07:00:00-08:00",
+                    "downloadURL": "https://github.com/hugeBlack/GetMoreRam/releases/download/nightly/Entitlement.ipa",
+                    "localizedDescription": "Initial release.",
+                    "size": 79821
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.developer.healthkit",
+                    "com.apple.developer.game-center"
+                ],
+                "privacy": {
+                    "NSLocalNetworkUsageDescription": "App scans the local network for nearby computers."
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "New Feature Announcement",
+            "identifier": "new_feature",
+            "caption": "Introducing a new feature in AltStore!",
+            "date": "2023-03-15",
+            "tintColor": "#5CA399",
+            "imageURL": "https://example.com/new_feature_image.png",
+            "notify": true,
+            "url": "https://example.com/new_feature_details"
+        },
+        {
+            "title": "App Update Available",
+            "identifier": "app_update",
+            "caption": "An update is available for My Example App.",
+            "date": "2023-03-10T10:00:00-07:00",
+            "tintColor": "#3660A2",
+            "imageURL": "https://example.com/app_update_image.png",
+            "notify": false,
+            "appID": "com.example.myapp"
+        }
+    ]
+}
