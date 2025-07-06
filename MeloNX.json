@@ -1,11 +1,11 @@
 {
     "name": "MeloNX(unofficial)",
+    "identifier": "com.stossy11.MeloNX.source",
     "subtitle": "the unofficial MeloNX source",
     "description": "This is an unofficial source of MeloNX with the get more ram application INSTRUCTIONS: Sideload MeloNX using SideStore/altstore\nSideload the ram app using SideStore/altstore\nGo to settings, sign in your account\nGo to \"App IDs\" page\nTap Refresh\nTap the app you want to enable \"Increased Memory Limit\"\nTap \"Add Increased Memory Limit\"\nReinstall the app from SideStore\nCheck if you have \"Increased Memory Limit\" within meloNX settings",
     "iconURL": "https://melonx.org/static/imgs/MeloNX.svg",
-    "headerURL": "",
     "website": "https://melonx.org/",
-    "tintColor": "#e82c64",
+    "tintColor": "e82c64",
     "featuredApps": [
         "com.stossy11.MeloNX",
         "com.stos.Entitlement"
@@ -18,13 +18,11 @@
             "subtitle": "switch emulation on the go!",
             "localizedDescription": "MeloNX enables Nintendo Switch game emulation on iOS using the Ryujinx iOS code base.\n\nMeloNX is an iOS Nintendo Switch emulator based on Ryujinx, written primarily in C#. Designed to bring accurate performance and a user-friendly interface to iOS, MeloNX makes Switch games accessible on Apple devices. Developed from the ground up, MeloNX is open-source and available on Github under the MeloNX license.",
             "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/FishApp.png",
-            "tintColor": "#5CA399",
-            "screenshots": [
-                {
-                    "imageURL": "https://cdn.discordapp.com/attachments/1391374660070936630/1391374857610199133/Screenshot_2025-07-06_125902.png?ex=686baa50&is=686a58d0&hm=3299797984027c9cd4147f4b8a9e007309604a613f969f8471694ea4b2836be1&",
-                    "width": 2556,
-                    "height": 1179
-                }
+            "tintColor": "5CA399",
+            "version": "2.0.1",
+            "versionDate": "2025-06-01",
+            "screenshotURLs": [
+                "https://cdn.discordapp.com/attachments/1391374660070936630/1391374857610199133/Screenshot_2025-07-06_125902.png?ex=686baa50&is=686a58d0&hm=3299797984027c9cd4147f4b8a9e007309604a613f969f8471694ea4b2836be1&"
             ],
             "versions": [
                 {
@@ -62,29 +60,15 @@
             "subtitle": "you will need this",
             "localizedDescription": "idk use this to get waaaaay better performance",
             "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/SharkApp.png",
-            "tintColor": "#3660A2",
-            "screenshots": [
-                {
-                    "imageURL": "https://example.com/anotherapp_portrait_1.png"
-                },
-                {
-                    "imageURL": "https://example.com/anotherapp_portrait_2.png"
-                },
-                {
-                    "imageURL": "https://example.com/anotherapp_landscape.png",
-                    "width": 2556,
-                    "height": 1179
-                },
-                {
-                    "imageURL": "https://example.com/anotherapp_ipad_portrait.png",
-                    "width": 1668,
-                    "height": 2388
-                },
-                {
-                    "imageURL": "https://example.com/anotherapp_ipad_landscape.png",
-                    "width": 2388,
-                    "height": 1668
-                }
+            "tintColor": "3660A2",
+            "version": "1.2",
+            "versionDate": "2022-06-21",
+            "screenshotURLs": [
+                "https://example.com/anotherapp_portrait_1.png",
+                "https://example.com/anotherapp_portrait_2.png",
+                "https://example.com/anotherapp_landscape.png",
+                "https://example.com/anotherapp_ipad_portrait.png",
+                "https://example.com/anotherapp_ipad_landscape.png"
             ],
             "versions": [
                 {
@@ -129,7 +113,7 @@
             "identifier": "new_feature",
             "caption": "Introducing a new feature in AltStore!",
             "date": "2023-03-15",
-            "tintColor": "#5CA399",
+            "tintColor": "5CA399",
             "imageURL": "https://example.com/new_feature_image.png",
             "notify": true,
             "url": "https://example.com/new_feature_details"
@@ -139,7 +123,7 @@
             "identifier": "app_update",
             "caption": "An update is available for My Example App.",
             "date": "2023-03-10T10:00:00-07:00",
-            "tintColor": "#3660A2",
+            "tintColor": "3660A2",
             "imageURL": "https://example.com/app_update_image.png",
             "notify": false,
             "appID": "com.example.myapp"
