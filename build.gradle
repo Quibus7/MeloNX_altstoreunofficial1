@@ -1,0 +1,18 @@
+plugins { id 'java' } 
+
+repositories { 
+    mavenCentral() 
+} 
+
+dependencies { 
+    implementation 'org.slf4j:slf4j-api:1.7.30' 
+} 
+
+sourceCompatibility = '1.8' 
+targetCompatibility = '1.8' 
+
+jar { 
+    manifest { 
+        attributes('Implementation-Title': 'Procedural Railway Worldgen Mod', 'Implementation-Version': version) 
+    } 
+}
